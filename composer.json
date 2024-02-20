@@ -1,0 +1,19 @@
+{
+    "name": "portable/intellihr-api",
+    "description": "A PHP package for using the intelliHR API",
+    "autoload": {
+        "psr-4": {
+            "Portable\\IntellihrApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kath Young",
+            "email": "kath.young@portable.com.au"
+        }
+    ],
+    "require": {
+        "spatie/laravel-data": "^4.1",
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
